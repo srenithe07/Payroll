@@ -1,0 +1,31 @@
+1 Add employee   2 Update employee   3 List employees
+4 Record day     5 Monthly reports   6 Leave register   0 Exit
+Choice: id | name | department | designation | basic_INR
+1 | Priya | Accounts | Clerk | 22000.0
+2 | Ravi | Operations | Associate | 33000.0
+3 | Meena | Operations | Supervisor | 44000.0
+1 Add employee   2 Update employee   3 List employees
+4 Record day     5 Monthly reports   6 Leave register   0 Exit
+Choice: Month YYYY-MM: employee_id | present | paid_leave | absent | hours | missing
+1 | 19 | 1 | 2 | 152.0 | 0
+2 | 20 | 1 | 1 | 160.0 | 0
+3 | 21 | 1 | 0 | 168.0 | 0
+employee_id | basic_INR | deducted_INR | net_INR
+1 | 22000.0 | 2000.0 | 20000.0
+2 | 33000.0 | 1500.0 | 31500.0
+3 | 44000.0 | 0.0 | 44000.0
+department | present | absent | paid_leave | missing
+Accounts | 19 | 2 | 1 | 0
+Operations | 41 | 1 | 2 | 0
+1 Add employee   2 Update employee   3 List employees
+4 Record day     5 Monthly reports   6 Leave register   0 Exit
+Choice: Month YYYY-MM: employee_id | day | leave_reason
+1 | 2026-09-09 | Personal leave
+2 | 2026-09-09 | Personal leave
+3 | 2026-09-09 | Personal leave
+1 Add employee   2 Update employee   3 List employees
+4 Record day     5 Monthly reports   6 Leave register   0 Exit
+Choice: Employee ID: Date YYYY-MM-DD: Status (Present/Absent/Paid leave): Minutes worked: Rejected: UNIQUE constraint failed: attendance.employee_id, attendance.day
+1 Add employee   2 Update employee   3 List employees
+4 Record day     5 Monthly reports   6 Leave register   0 Exit
+Choice: 
